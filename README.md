@@ -1,15 +1,11 @@
-Heart Disease Prediction Using Machine Learning
+Heart Disease Prediction using Machine Learning
 Project Overview
 
-This project aims to predict the presence of heart disease using machine learning classification algorithms. The model is trained on medical data such as age, cholesterol level, blood pressure, heart rate, and other health parameters to predict whether a person has heart disease or not.
+This project aims to predict whether a person is likely to have heart disease based on various medical attributes. The project uses machine learning classification algorithms to analyze medical data and make predictions. The goal of this project is to build an end-to-end machine learning model, including data preprocessing, exploratory data analysis, model building, and model evaluation.
 
-Objective
+Dataset Information
 
-The main objective of this project is to build a machine learning classification model that can accurately predict the presence of heart disease based on medical attributes and improve early detection.
-
-Dataset
-
-The dataset used in this project contains medical attributes such as:
+The dataset used in this project is the Heart Disease dataset, which contains medical information about patients. The dataset includes the following features:
 
 Age
 Sex
@@ -17,15 +13,23 @@ Chest Pain Type
 Resting Blood Pressure
 Cholesterol
 Fasting Blood Sugar
-Rest ECG
-Maximum Heart Rate
+Resting ECG
+Maximum Heart Rate Achieved
 Exercise Induced Angina
 ST Depression
-Slope
+Slope of Peak Exercise ST Segment
 Number of Major Vessels
 Thalassemia
-Target (0 = No Heart Disease, 1 = Heart Disease)
-Project Steps
+Target (Heart Disease: Yes/No)
+Technologies Used
+Python
+NumPy
+Pandas
+Matplotlib
+Seaborn
+Scikit-learn
+Jupyter Notebook / VS Code
+Steps Performed
 Data Collection
 Data Preprocessing
 Exploratory Data Analysis (EDA)
@@ -35,34 +39,16 @@ Model Evaluation
 Prediction
 Machine Learning Algorithms Used
 Logistic Regression
-Decision Tree Classifier
-Random Forest Classifier
-Support Vector Machine (SVM)
-K-Nearest Neighbors (KNN)
-Evaluation Metrics
-
-The models were evaluated using:
-
+Decision Tree
+Random Forest
+Support Vector Machine
+K-Nearest Neighbors
+Model Evaluation Metrics
 Accuracy
 Precision
 Recall
 F1-Score
 Confusion Matrix
-Technologies Used
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Scikit-learn
-Jupyter Notebook
-Project Structure
-heart-disease-prediction/
-│
-├── heart.csv
-├── heart_disease_prediction.ipynb
-├── README.md
-├── requirements.txt
-Conclusion
+Results
 
-This project shows how machine learning classification algorithms can be used in the healthcare sector to predict heart disease. Early prediction helps in better medical diagnosis and treatment planning, which can help reduce health risks.
+The machine learning models were trained and evaluated using classification metrics. The best-performing model was selected based on accuracy and evaluation metrics.
